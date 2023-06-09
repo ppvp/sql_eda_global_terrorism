@@ -1,34 +1,42 @@
-# global_terrorism_1970_2017
+# Global Terrorism Analysis
 
+## About Data 
 Dataset used: https://www.kaggle.com/datasets/START-UMD/gtd
 
 Context
 Information on more than 180,000 Terrorist Attacks
 
 The Global Terrorism Database (GTD) is an open-source database including information on terrorist attacks around the world from 1970 through 2017. The GTD includes systematic data on domestic as well as international terrorist incidents that have occurred during this time period and now includes more than 180,000 attacks. The database is maintained by researchers at the National Consortium for the Study of Terrorism and Responses to Terrorism (START), headquartered at the University of Maryland.
-More Information
 
-Content
-Geography: Worldwide
+## More Information
 
-Time period: 1970-2017, except 1993
+* Content
+* Geography: Worldwide
+* Time period: 1970-2017, except 1993
+* Unit of analysis: Attack
+* Variables: >100 variables on location, tactics, perpetrators, targets, and outcomes
+* Sources: Unclassified media articles (Note: Please interpret changes over time with caution. Global patterns are driven by diverse trends in particular regions, and data collection is influenced by fluctuations in access   to media coverage over both time and place.)
 
-Unit of analysis: Attack
+## Objectives
 
-Variables: >100 variables on location, tactics, perpetrators, targets, and outcomes
+This summary provides a brief overview of the analysis conducted on a comprehensive global terrorism dataset comprising 181,691 rows and 131 columns. The dataset encompasses a wide range of variables related to terrorism incidents worldwide, including geographical information, attack details, perpetrator information, impact assessment, methods of attack, commonest targets etc.
 
-Sources: Unclassified media articles (Note: Please interpret changes over time with caution. Global patterns are driven by diverse trends in particular regions, and data collection is influenced by fluctuations in access to media coverage over both time and place.)
+* Analyze the location and density of terrorist attacks
+* Examine the annual trends in the number of terrorist attacks to understand the overall patterns
+* Investigate the differences in the number of attacks across different decades
+* Assess the year-to-year differences in the number of attacks
+* Explore the distribution of terrorist attacks across months
+* Identify the 50 most terrorized cities
+* Analyze the number of casualties per year, per country, and per region
+* Identify the 50 deadliest terrorist attacks in history
+* Investigate the groups responsible for terrorist attacks to identify the most active and influential terrorist organizations
+* Identify the most common targets of terrorist attacks
+* Analyze the different types of attack methods used
+* Investigate most commonly used weaponry
 
-Definition of terrorism:
+### Note
+The data used in this analysis was run on a local PostgreSQL instance.
 
-"The threatened or actual use of illegal force and violence by a non-state actor to attain a political, economic, religious, or social goal through fear, coercion, or intimidation."
+Visulisations were performed in Tableau and later embedded into the notebook via HTML code in order to maintain their interactive nature.
 
-See the GTD Codebook for important details on data collection methodology, definitions, and coding schema.
-
-Acknowledgements
-The Global Terrorism Database is funded through START, by the US Department of State (Contract Number: SAQMMA12M1292) and the US Department of Homeland Security Science and Technology Directorate’s Office of University Programs (Award Number 2012-ST-061-CS0001, CSTAB 3.1). The coding decisions and classifications contained in the database are determined independently by START researchers and should not be interpreted as necessarily representing the official views or policies of the United States Government.
-
-GTD Team
-
-Publications
-The GTD has been leveraged extensively in scholarly publications, reports, and media articles. Putting Terrorism in Context: Lessons from the Global Terrorism Database, by GTD principal investigators LaFree, Dugan, and Miller investigates patterns of terrorism and provides perspective on the challenges of data collection and analysis. The GTD's data collection manager, Michael Jensen, discusses important Benefits and Drawbacks of Methodological Advancements in Data Collection and Coding.
+Kaggle notebook: https://www.kaggle.com/code/peterprosen/global-terrorism-analysis-1970-2017
